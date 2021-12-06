@@ -1,0 +1,67 @@
+---
+name: main.css
+---
+
+<style>
+body{
+	background-color: #FFFF;
+
+}
+h1 {
+color: #0066CC;
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 18pt;
+}
+h2 {
+color: #0066CC;
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 16pt;
+	margin :0;
+	padding: 0;
+}
+a {
+color: #0066CC;
+}
+footer {
+  text-align: left;
+  padding: 3px;
+	border-top: 1px solid #aaaaaa;
+}
+.footer-container {
+	max-width: 1100px;
+	margin-left: 270px;
+	background-color: #ffff;
+}
+  .header {
+  padding: 1px;
+  text-align: left;
+  #background: #1abc9c;
+  #color: white;
+  font-size: 20px;
+	border-bottom: 1px solid #aaaaaa;
+}
+.header-container {
+	max-width: 1100px;
+	margin-left: 270px;
+	background-color: #ffff;
+}
+.container {
+	max-width: 1100px;
+	margin: auto;
+	background-color: #fff;
+}
+main {
+	float; left;
+	width: 70%;
+	min-heigth: 300px;
+	#background-color: lightgrey;
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 16pt;
+	background-color: #F3F3F3;
+}
+.post_date {
+font-family: Arial, Verdana, Sans-serif;
+font-size: 12pt;
+}
+a {text-decoration: none;}
+</style>
