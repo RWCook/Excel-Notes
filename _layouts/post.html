@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+	<link href="{{site.baseurl}}/css/main.css" rel="stylesheet">	
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+<div class="header">
+<div class="header-container">
+<header>
+<h1>Excel Notes</h1>
+</header>
+
+</div>
+</div>
+<div class="container">
+	<main>
+   <h1>{{ page.title }}</h1>
+	<div class="container">
+	<ul>
+	<a href="{{ site.baseurl }}{{ post.url }}"<h2>{{ post.title }}</h2></a>
+	<div class="post_date">
+	{{post.date | date_to_string }} 
+	</div>
+      {{ content }}
+	</p>
+</ul>
+
+	</main>
+	
+	</div>
+<footer>
+<div class="footer-container">
+<p>Excel Notes 2021</p>
+</div>
+</footer>
+  </body>
+</html>
+
+
