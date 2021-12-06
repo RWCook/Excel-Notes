@@ -35,8 +35,6 @@ footer {
   .header {
   padding: 1px;
   text-align: left;
-  #background: #1abc9c;
-  #color: white;
   font-size: 20px;
 	border-bottom: 1px solid #aaaaaa;
 }
@@ -54,10 +52,9 @@ main {
 	float; left;
 	width: 70%;
 	min-heigth: 300px;
-	#background-color: lightgrey;
 	font-family: Arial, Verdana, Sans-serif;
 	font-size: 16pt;
-	background-color: #F3F3F3;
+	
 }
 .post_date {
 font-family: Arial, Verdana, Sans-serif;
